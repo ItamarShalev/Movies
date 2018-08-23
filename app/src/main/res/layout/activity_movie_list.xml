@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent_layout_list_relative_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_app"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/movie_list_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/qr_code_floating_action_button"
+        android:layout_width="@dimen/size_button_floating"
+        android:layout_height="@dimen/size_button_floating"
+        android:layout_margin="@dimen/normal_margin"
+        android:src="@drawable/ic_add_black_24dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"/>
+
+</RelativeLayout>

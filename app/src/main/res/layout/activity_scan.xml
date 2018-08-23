@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_scan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="HardcodedText" >
+
+
+    <RelativeLayout
+        android:id="@+id/parent_title_relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/background_title_dialog">
+
+        <TextView
+            android:id="@+id/title_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:padding="@dimen/small_space"
+            android:text="Barcode Scanner"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_description"
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:id="@+id/exit_image_button"
+            android:layout_width="@dimen/exit_size_image_view"
+            android:layout_height="@dimen/exit_size_image_view"
+            android:layout_alignParentEnd="true"
+            android:background="@null"
+            android:src="@drawable/ic_clear_black"
+            tools:ignore="ContentDescription" />
+    </RelativeLayout>
+
+    <SurfaceView
+        android:id="@+id/camera_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Movies</string>
+    <string name="image_movie_transition">ImageMovieTransition</string>
+    <string name="name_movie_transition">NameMovieTransition</string>
+    <string name="release_year_movie_transition">ReleaseYearMovieTransition</string>
+    <string name="try_again">Try again</string>
+    <string name="exit">Exit</string>
+    <string name="connect_fail">Connect fail</string>
+    <string name="continue_text">Continue</string>
+    <string name="loading_data">Loading data…</string>
+    <string name="fail_to_upload_check_networking">Failed to upload information, please check your Internet connection and try again</string>
+    <string name="continue_offline">or continue on offline status</string>
+    <string name="type">Type :</string>
+    <string name="request_permission_camera_message">Require camera permission to scan, please allow.</string>
+    <string name="barcode_say">Barcode say :</string>
+    <string name="copy_text">Copy text</string>
+    <string name="initializing_the_camera">Initializing the camera…</string>
+    <string name="permission">Permission</string>
+    <string name="body_message_allow_permission">For Scan barcode you must allow permission for camera</string>
+    <string name="back">Back</string>
+    <string name="allow">Allow</string>
+    <string name="not_yet_connection_yet">Not have connection yet</string>
+
+</resources>

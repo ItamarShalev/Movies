@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#d1ffffff</color>
+    <color name="background_app">#424242</color>
+
+    <color name="background_app_transition">#ae424242</color>
+    <color name="white">#fff</color>
+    <color name="background_title_dialog">#a7a7a7</color>
+    <color name="button_dialog_color">#848484</color>
+    <color name="background_button">#23ffffff</color>
+
+</resources>

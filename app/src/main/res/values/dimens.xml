@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="small_round">8dp</dimen>
+    <dimen name="medium_space">16dp</dimen>
+    <dimen name="text_size_description">16sp</dimen>
+    <dimen name="text_size_row_title">17sp</dimen>
+    <dimen name="small_space">8dp</dimen>
+    <dimen name="text_size_title_dialog">22sp</dimen>
+    <dimen name="exit_size_image_view">40dp</dimen>
+    <dimen name="text_title_size">20sp</dimen>
+    <dimen name="small_margin">8dp</dimen>
+    <dimen name="corner_radius_card_normal">45dp</dimen>
+    <dimen name="card_elevation">10dp</dimen>
+    <dimen name="max_height_image">400dp</dimen>
+    <dimen name="text_size_details">17sp</dimen>
+    <dimen name="normal_margin">16dp</dimen>
+    <dimen name="size_button_floating">50dp</dimen>
+    <dimen name="width_lotti_size">310dp</dimen>
+    <dimen name="height_lotti_size">360dp</dimen>
+    <dimen name="big_margin">30dp</dimen>
+    <dimen name="size_max_width_message">200dp</dimen>
+    <dimen name="round_dialog">16dp</dimen>
+
+</resources>

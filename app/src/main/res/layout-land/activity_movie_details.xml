@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background_app"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:ignore="HardcodedText,RtlHardcoded,ContentDescription">
+
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/parent_image_card_view"
+        android:layout_width="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="@dimen/small_margin"
+        android:layout_height="wrap_content"
+        app:cardElevation="@dimen/card_elevation"
+        app:cardBackgroundColor="@color/background_app"
+        app:cardUseCompatPadding="true"
+        android:transitionName="@string/image_movie_transition"
+        app:cardCornerRadius="@dimen/corner_radius_card_normal">
+        <ImageView
+            android:id="@+id/image_movie_image_view"
+            android:layout_width="wrap_content"
+            android:background="@color/background_app"
+            android:layout_alignParentStart="true"
+            android:layout_height="wrap_content"
+            android:maxWidth="@dimen/max_height_image"
+            android:src="@drawable/ic_launcher_background"
+            android:scaleType="centerCrop"/>
+    </android.support.v7.widget.CardView>
+
+
+    <RelativeLayout
+        android:id="@+id/parent_details_relative_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/small_margin"
+        android:layout_toEndOf="@+id/parent_image_card_view"
+        android:layout_centerVertical="true">
+
+
+        <TextView
+            android:id="@+id/name_movie_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/small_margin"
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:text="Dawn of the Planet of the Apes"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_title_size"
+            android:textStyle="bold"
+            android:transitionName="@string/name_movie_transition" />
+
+        <TextView
+            android:id="@+id/release_year_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name_movie_text_view"
+            android:padding="@dimen/small_margin"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:text="Release year : 2018"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:transitionName="@string/release_year_movie_transition" />
+
+        <TextView
+            android:id="@+id/genre_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/release_year_text_view"
+            android:padding="@dimen/small_margin"
+            android:gravity="center_horizontal"
+            android:text="Genre : [Action], [Sci-Fi], [Thriller]"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_details"
+            android:textStyle="bold" />
+
+        <RatingBar
+            android:id="@+id/rating_bar"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/genre_text_view"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/normal_margin"
+            android:clickable="false"
+            android:numStars="10"
+            android:progressTint="@color/colorPrimary"
+            android:rating="6.8" />
+
+        <TextView
+            android:id="@+id/rating_value_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rating_bar"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="@dimen/small_margin"
+            android:text="(6.5)"
+            android:textColor="@color/white" />
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
